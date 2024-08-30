@@ -1,0 +1,50 @@
+/* HomePage.css */
+
+/* Carousel Image */
+.carousel-img {
+    height: 100px;
+    width: 80%;
+     /* Set a fixed height for the carousel */
+    object-fit: cover; 
+    display: absolute;/* Ensure the image covers the container without stretching */
+  }
+  
+  /* Carousel Caption */
+  .carousel-caption {
+    bottom: 10%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 8px;
+    height: 12vh;
+  }
+  
+  .carousel-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .carousel-text {
+    font-size: 1.25rem;
+    color: #f0f0f0;
+  }
+  
+  /* Card Styling for Courses */
+  .card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .card p {
+    color: #333333;
+  }
+  
